@@ -1,0 +1,42 @@
+{
+  "name": "op-otterscan.public.dappnode.eth",
+  "version": "0.1.0",
+  "shortDescription": "A blazingly fast, local, Optimism block explorer built on top of Erigon",
+  "description": "A blazingly fast, local, Optimism block explorer built on top of Erigon",
+  "upstreamVersion": "v1.30.0",
+  "upstreamRepo": "testinprod-io/otterscan",
+  "upstreamArg": "UPSTREAM_VERSION",
+  "type": "service",
+  "dependencies": {
+    "op-erigon.dnp.dappnode.eth": "^0.1.0"
+  },
+  "categories": ["Developer tools"],
+  "architectures": ["linux/amd64"],
+  "author": "Melen <melen_oss@proton.me> (https://github.com/melenxyz)",
+  "contributors": [
+    "Willian Mitsuda <wmitsuda@gmail.com> (https://github.com/wmitsuda)",
+    "Andrew Redden <opensource@andrewredden.com> (https://github.com/androolloyd)"
+  ],
+  "links": {
+    "homepage": "https://github.com/testinprod-io/otterscan",
+    "ui": "http://scanner.op-otterscan.public.dappnode"
+  },
+  "exposable": [
+    {
+      "name": "OP Otterscan UI",
+      "description": "WebUI for the Otterscan block explorer",
+      "serviceName": "op-otterscan",
+      "port": 80,
+      "exposeByDefault": false
+    }
+  ],
+  "mainService": "op-otterscan",
+  "license": "GLP-3.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melenxyz/DAppNodePackage-op-otterscan.git"
+  },
+  "bugs": {
+    "url": "https://github.com/melenxyz/DAppNodePackage-op-otterscan/issues"
+  }
+}

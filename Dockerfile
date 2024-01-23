@@ -1,0 +1,2 @@
+ARG UPSTREAM_VERSION
+FROM melenxyz/op-otterscan:$UPSTREAM_VERSION
