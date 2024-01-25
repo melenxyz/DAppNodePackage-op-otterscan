@@ -1,4 +1,4 @@
-# Otterscan
-Otterscan DAppNodePackage
+# OP Otterscan
+Optimism Otterscan DAppNodePackage
 
-https://github.com/otterscan/otterscan
+Based on [testinprod's fork](https://github.com/testinprod-io/otterscan) of [wmitsuda's otterscan](https://github.com/otterscan/otterscan)
